@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-background: linear-gradient(to right, rgb(83, 0, 151), rgb(83, 0, 151), salmon);
+.BoBo{
+    background: linear-gradient(to right, rgb(83, 0, 151), rgb(83, 0, 151), salmon);
+z-index: 1;
 }
 
 
@@ -12,6 +13,8 @@ background: linear-gradient(to right, rgb(83, 0, 151), rgb(83, 0, 151), salmon);
   max-width: 1440px;
   margin: auto;
   padding: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .header {
@@ -68,4 +71,145 @@ color: white;
 .button button:hover{
     background-color: salmon;
     color: white;
+}
+.DaDa h1{
+font-size: 100px;
+color: white;
+}
+.DaDa{
+    color: white;
+}
+.aylana{
+    width:150px;
+    height: 150px;
+    position:absolute;
+    margin-top: -270px;
+    border: 1px solid white;
+    margin-left: 500px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lolo {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 100px;
+    position: relative;
+}
+.left_cont h1 {
+    font-size: 72px;
+    color: white;
+}
+.left_cont p{
+    color: rgba(255, 255, 255, 0.657);
+}
+.right_cont img {
+    width: 100%;
+    /* height: 300px; */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.developer {
+    width: 350px;
+    height: 455px;
+    background-color: white;
+    border-radius: 8px;
+}
+.right_cont p {
+    text-indent: 30px;
+    color: rgba(33, 30, 30, 0.657);
+    padding-bottom: 10px;
+}
+.right_cont h2 {
+    text-indent: 30px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    font-weight: 400;
+}
+.btn {
+    padding: 20px 30px;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+.btn2{
+    margin-left: 15px;
+    background-color: white;
+}
+.btn1 {
+    border: none;
+    background-color: salmon;
+    color: white;
+   
+}
+.btn1:hover{
+background-color: white;
+color: salmon;
+border: 2px solid salmon;
+}
+.btn2:hover{
+    background-color: salmon;
+    color: white;
+    border: none;
+}
+.yulduz{
+     color: gold;
+}
+.qiyaekran{
+    clip-path: polygon(0 48%, 100% 25%, 100% 99%, 0% 100%);
+    background-color: rgb(70, 1, 126) ;
+    width: 100%;
+    height: 1450px;
+    position: absolute;
+    margin-top: -180px;
+
+}
+.pastugashi{
+    position: relative;
+    display: flex;
+    gap: 100px;
+}
+.elementlar{
+    display: flex;
+    gap: 10px;
+    margin-top: 100px;
+}
+.chap{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+.chap h6{
+    border-top: 5px solid salmon;
+    width: 40px;
+}
+.ong{
+   color: white;
+}
+.ong p{
+    color: rgba(0, 0, 0, 0.473);
+}
+.elementlar1{
+    display: flex;
+    gap: 10px;
+    margin-top: 100px;
+}
+.odam{
+    width: 300px;
+position: relative;
+margin-top: -100px;
+margin-left:-50px ;
+}
+.elementlar2{
+    width: 600px;
+    height: 200px;
+    background-color:  rgb(55, 1, 99);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 35px;
+    margin-top:100px;
 }
